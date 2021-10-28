@@ -1,0 +1,26 @@
+{
+  "name": "lit-experiments",
+  "version": "0.0.0",
+  "main": "dist/my-vite-element.es.js",
+  "exports": {
+    ".": "./dist/my-vite-element.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "@shoelace-style/shoelace": "^2.0.0-beta.52",
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.5.10",
+    "typescript": "^4.4.3"
+  }
+}
